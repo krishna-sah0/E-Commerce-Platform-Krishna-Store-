@@ -61,7 +61,7 @@ Secure login and protected API endpoints using Spring Security
 
 🛍️ Product Management
 
-<img width="1351" height="510" alt="image" src="https://github.com/user-attachments/assets/5795eb92-bf8a-4978-b76e-41c6dd398bcd" />
+<img width="1330" height="507" alt="image" src="https://github.com/user-attachments/assets/01f603aa-88bf-4267-ba43-01d406a12368" />
 
 
 View product catalog
@@ -74,8 +74,7 @@ Optimized database queries for fast data retrieval
 
 Place and manage orders
 
-<img width="1330" height="507" alt="image" src="https://github.com/user-attachments/assets/01f603aa-88bf-4267-ba43-01d406a12368" />
-
+<img width="1351" height="510" alt="image" src="https://github.com/user-attachments/assets/5795eb92-bf8a-4978-b76e-41c6dd398bcd" />
 
 Track order details
 
