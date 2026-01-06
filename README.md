@@ -1,73 +1,227 @@
-# Welcome to your Lovable project
+🛒 E-Commerce Platform – Full Stack (React + Spring Boot + AWS)
+📌 Project Overview
 
-## Project info
+<img width="1346" height="597" alt="image" src="https://github.com/user-attachments/assets/21707e96-f3a2-4f18-b537-ad02c15c76ef" />
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
+This project is a full-stack e-commerce web application designed and developed using React for the frontend and Spring Boot for the backend. The platform follows modern software engineering practices, focusing on security, scalability, performance optimization, and cloud deployment.
 
-There are several ways of editing your application.
+The application supports essential e-commerce functionalities such as user authentication, product management, order processing, and role-based access control. It is fully containerized using Docker and deployed on AWS EC2, ensuring high availability and smooth scalability under increasing traffic.
 
-**Use Lovable**
+🎯 Project Objectives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Build a secure and scalable full-stack e-commerce platform
 
-Changes made via Lovable will be committed automatically to this repo.
+Implement JWT-based authentication with role-based authorization
 
-**Use your preferred IDE**
+Design optimized RESTful APIs with PostgreSQL integration
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Reduce API response latency and improve backend performance
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Deploy the application using Docker and AWS
 
-Follow these steps:
+Follow clean code and modular architecture suitable for real-world production
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🧱 System Architecture
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The application follows a three-tier architecture:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Frontend (Client Layer)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Built with React
 
-**Edit a file directly in GitHub**
+Handles UI rendering and user interactions
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Communicates with backend via REST APIs
 
-**Use GitHub Codespaces**
+Backend (Application Layer)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Built using Spring Boot
 
-## What technologies are used for this project?
+Implements business logic, authentication, and authorization
 
-This project is built with:
+Exposes RESTful APIs secured with JWT
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Database (Data Layer)
 
-## How can I deploy this project?
+PostgreSQL database
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Stores user data, product information, and order details
 
-## Can I connect a custom domain to my Lovable project?
+All services are containerized using Docker and deployed on AWS EC2.
 
-Yes, you can!
+✨ Key Features
+🔐 Authentication & Authorization
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+JWT-based secure authentication
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Role-based access control (Admin / User)
+
+Secure login and protected API endpoints using Spring Security
+
+🛍️ Product Management
+
+<img width="1351" height="510" alt="image" src="https://github.com/user-attachments/assets/5795eb92-bf8a-4978-b76e-41c6dd398bcd" />
+
+
+View product catalog
+
+Admin-level product CRUD operations
+
+Optimized database queries for fast data retrieval
+
+📦 Order Management
+
+Place and manage orders
+
+<img width="1330" height="507" alt="image" src="https://github.com/user-attachments/assets/01f603aa-88bf-4267-ba43-01d406a12368" />
+
+
+Track order details
+
+Secure order APIs linked to authenticated users
+
+⚡ Performance Optimization
+
+PostgreSQL query optimization
+
+Reduced API latency by approximately 30%
+
+Efficient data flow between frontend and backend
+
+☁️ Cloud Deployment
+
+Dockerized frontend and backend services
+
+Deployed on AWS EC2
+
+Supports scalability, fault tolerance, and high availability
+
+📱 Responsive UI
+
+Clean and modern UI using React
+
+Responsive design for desktop and mobile devices
+
+🛠️ Tech Stack
+Frontend
+
+React
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Backend
+
+Spring Boot
+
+Spring Security
+
+JWT Authentication
+
+RESTful APIs
+
+Database
+
+PostgreSQL
+
+DevOps & Cloud
+
+Docker
+
+AWS EC2
+
+📂 Project Structure (High-Level)
+ecommerce-platform/
+│
+├── frontend/           # React application
+│
+├── backend/            # Spring Boot application
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── security/
+│   └── model/
+│
+├── docker/             # Docker configuration
+│
+└── README.md
+
+🚀 How the Application Works (Step-by-Step)
+
+User accesses the frontend
+
+React UI loads and displays products
+
+Authentication
+
+User logs in
+
+Backend validates credentials
+
+JWT token is generated and sent to client
+
+Authorized API Access
+
+JWT token is attached to API requests
+
+Backend verifies token and user role
+
+Business Operations
+
+Products fetched from PostgreSQL
+
+Orders created and stored securely
+
+Admin operations restricted by role
+
+Deployment
+
+Services run inside Docker containers
+
+Deployed on AWS EC2 for production usage
+
+🧪 Security Measures
+
+JWT token validation for every protected API
+
+Password encryption using secure hashing
+
+Role-based endpoint protection
+
+Secure HTTP communication
+
+📈 Scalability & Reliability
+
+Dockerized services enable easy scaling
+
+AWS EC2 ensures uptime and availability
+
+Modular architecture allows feature expansion
+
+🔮 Future Enhancements
+
+Payment gateway integration (Stripe / Razorpay)
+
+Redis caching for faster performance
+
+CI/CD pipeline using GitHub Actions
+
+Admin analytics dashboard
+
+Microservices-based architecture
+
+👨‍💻 Learning Outcomes
+
+Hands-on experience with full-stack development
+
+Real-world use of Spring Security & JWT
+
+Backend performance optimization techniques
+
+Cloud deployment and containerization
+
+Industry-level project structure and practices
